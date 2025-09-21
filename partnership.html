@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/partnership.css">   
+</head>
+
+<body>
+    <div id="wrap" class="hasgnb">
+        <section id="gnb">
+            <div>
+                <a href="index.html">
+                    <img src="./assets/img/arrow_back_wh.svg">
+                </a>
+               国庆节黄金周酬宾活动
+            </div>
+            <nav>
+                <ul>
+                    <li class="on">微信支付</li>
+                    <li>支付宝</li>
+                    <li>WOWPASS</li>
+                    <li>银联</li>
+                </ul>
+            </nav>
+        </section>
+        <section id="wechat" class="sec show">
+            <!-- <h2>
+                <div class="logo-cont">
+                    <img src="./assets/img/partnership/logo_wechat.png">
+                </div>                
+                微信支付
+            </h2>
+            <ul>
+                <li>
+
+                </li>
+            </ul> -->
+            <img src="./assets/img/partnership/wechat.png">
+        </section>
+        <section id="ali" class="sec ">
+            <img src="./assets/img/partnership/ali.png">
+        </section>
+        <section id="wow" class="sec">
+            <img src="./assets/img/partnership/wow.png">
+        </section>
+        <section id="union" class="sec ">
+            <img src="./assets/img/partnership/union.png">
+        </section>
+    </div>
+<script>
+function tab(){  // tab메뉴 스크립트
+    const tabMenu = document.querySelectorAll('nav li');
+    console.log(tabMenu)
+    const section = document.querySelectorAll('.sec');
+    tabMenu.forEach((tab,index)=>{
+        tab.addEventListener('click',(e)=>{
+            tabMenu.forEach(item=>item.classList.remove('on'))
+            e.target.classList.add('on')
+            section.forEach(item=>item.classList.remove('show'))
+            section[index].classList.add('show');
+        })
+    })
+}
+tab();
+</script>
+</body>
+</html>

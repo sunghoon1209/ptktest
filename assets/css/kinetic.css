@@ -1,0 +1,223 @@
+#kinetic{
+  background:#200D47;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+  position: relative;
+}
+
+#kinetic .box{
+  width: 324px;
+  border-radius: 5px;
+  background:#fafafa;
+  padding:  20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+}
+#kinetic .box .flower{
+  position: absolute;
+  left: -10px;
+  top: -33px;
+  width: 80.5px;
+  height: 78px;
+  transform: rotate(5.844deg);
+  box-shadow: -4px 7px 8.5px 0 rgba(0, 0, 0, 0.10);
+}
+#kinetic .box .smile{
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    right: -18px;
+    width: 85px;
+    height: 75px;
+}
+
+
+#kinetic .box h2{
+  margin-bottom: 12.5px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+}
+
+
+
+#kinetic .box h2~.img-cont{
+  width: 297px;  
+  padding: 0 5px;
+  margin-bottom: 18.5px;
+}
+#kinetic .box .img-cont img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+#kinetic .box:nth-of-type(1){
+  margin-top: -96px;  
+  margin-bottom: 20px;
+}
+#kinetic .box>p{
+  align-self: start;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  display: flex;
+  gap: 7.5px;
+  padding-bottom: 8px;
+  width: 100%;
+  border-bottom: 1px solid #4b2398;
+}
+#kinetic .box>p span{
+  font-weight: 400;
+}
+
+
+#kinetic .box .events{
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  width: 100%;
+  
+}
+
+#kinetic .box .events .event{
+  padding:  10px 0;
+  width: 100%;
+  border-bottom: 0.5px solid #DBDBDB;
+  display: flex;
+  flex-direction: column;  
+}
+#kinetic .box .events .event:last-of-type{
+  border-bottom: none;
+}
+#kinetic .box .events .event h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+#kinetic .box .events .event ul{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+}
+#kinetic .box .events .event li{
+    color: #373737;
+    font-size: 14px;
+    line-height: 19px; /* 89.286% */
+    padding-left: 8px;
+    position: relative;
+}
+#kinetic .box .events .event li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+#kinetic .box .events .event li span{
+    color: #8E8E8E;
+}
+
+#kinetic .box .events .event .notice{
+    margin-top: 5px;
+    color: #979797;
+    font-size: 12px;
+    line-height: 12.5px; /* 104.167% */
+    letter-spacing: -0.24px;    
+}
+#kinetic .box .events .event .img-cont{
+    width: 100%;
+    margin-top: 15px;
+}
+
+#kinetic .box .events .event .img-cont img{
+    border-radius: 0;
+}
+
+#kinetic .box .events .event .img-cont.gird{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+}
+#kinetic .box .events .event .img-cont.gird img:nth-of-type(3){
+    width: 100%;
+}
+#kinetic .box .events .event .img-cont.gird img:nth-of-type(1), #kinetic .box .events .event .img-cont.gird img:nth-of-type(2){
+    width: calc(50% - 4px);
+}
+
+#kinetic .kinetic-banner {
+  margin-top: 20px;
+  width: 285px;
+  padding: 15px;
+  border-radius: 5px;
+  background: linear-gradient(105deg, #200D47 35.06%, #4E20AD 114.65%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#kinetic .kinetic-banner .text-box{
+    width: 175px;
+}
+
+#kinetic .kinetic-banner p{
+  color: #FFF;  
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px; /* 130.435% */
+  letter-spacing: -0.23px;
+  margin-bottom: 6px;
+}
+#kinetic .kinetic-banner ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#kinetic .kinetic-banner li{
+  color: #D4CFE3;  
+  font-size: 14px;
+  line-height: 19px; /* 166.667% */
+  letter-spacing: -0.18px;
+  padding-left: 10px;
+  position: relative;
+}
+#kinetic .kinetic-banner li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+#kinetic .kinetic-banner .img-cont{
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 0;
+  margin-bottom: 0;
+}
+
+#kinetic .kinetic-banner .img-cont img{
+  width: 62.5px;
+  height:66.5px;
+  display: block;
+
+}
+
+
+#kinetic .chain{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 244px;
+  height: 118px;  
+}

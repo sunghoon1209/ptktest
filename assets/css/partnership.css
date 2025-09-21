@@ -1,0 +1,71 @@
+#gnb{
+    height: 100px;
+    padding: 0;
+}
+#gnb>div{
+    
+    height: 60px;
+    background: #000;
+    background: #2D2D2D;
+    color: #fff;
+
+}
+#gnb nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    align-items: center;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.90);
+}
+
+#gnb nav li{
+    color: #7B7B7B;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 120%; /* 31.2px */
+    letter-spacing: -0.65px;
+    cursor: pointer;
+}
+
+#gnb nav li.on {
+    color: #fff;
+}
+
+#wrap.hasgnb{
+    padding-top: 90px;
+}
+
+#wechat{
+    /* background: url("../img/partnership/wechat_bg.png") no-repeat center/cover; */
+   
+}
+section{
+}
+
+section.sec{
+    display: none;
+}
+section.sec.show{
+    display: block;
+}
+section h2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px;  
+    margin-bottom: 34px;  
+}
+#wechat .logo-cont{
+    width: 56px;
+    height: 50px;
+}
